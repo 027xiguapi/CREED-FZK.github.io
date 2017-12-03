@@ -1,7 +1,7 @@
 
 * master 
     + 上线产品级代码
-    + 2015年版简历
+    + 个人简历
     + 采用jQuery,fullPage.js开发
     + 采用ES6,angularJS 1.x,gulp,less,webpack开发构建
     + 不断更新优化中    
