@@ -16,10 +16,10 @@
     <link rel="stylesheet" href="css/style.css">
     <style>
         .m-btn{
-            width: 30px;
-            height: 30px;
+            width: 35px;
+            height: 35px;
             display: block;
-            top: 70px;
+            top: 60px;
             right: 5%;
             position: absolute;
             background:url("img/music.svg");
@@ -69,10 +69,12 @@
         $(".m-btn").click(function(){
             if (audioDom.paused) {
                 audioDom.play();
+                $(this).addClass("r");
             }else {
                 audioDom.pause();
+                $(this).removeClass("r");
             }
-            $(this).toggleClass("r");
+            
         })
         
     })
